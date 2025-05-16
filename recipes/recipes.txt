@@ -1,5 +1,4 @@
-homos
-dwale
-lasagna
-senta
-adas
+homos| A Healthy protine source. | Homos;Tahena;Salt;Lemon | Boil the homos; Mix it with salt;Add lemon;Enjoy
+dwale| Top tasty food | Grape leaf;Rice;Meat | Lef Grape leaf; add rice; add meat; Enjoy
+senta| Meat tasty and protine source| Senta meat;pelpel;salt;olive oil | add pelpel; add salt; in the oven; Enjoy
+adas| Healthy soap | adas; olive oil; onion | add ada;add onion;boil; Enjoy

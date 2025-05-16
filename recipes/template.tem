@@ -6,7 +6,13 @@
     <title>{{tite}}</title>
 </head>
 <h1>{{head1}}</h1>
-<p>Here is the recipe:</p>
+<img src="./img/{{image}}" alt="recipe image">
+<h2>Description:</h2>
+<p>{{description}}</p>
+<h2>Integrations</h2>
+{{integration}}
+<h2>Steps</h2>
+{{steps}}
 <a href="../index.html">Home</a>
 
 <body>
