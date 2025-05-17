@@ -25,7 +25,7 @@ fi
 to_html_list() {
   local input="$1"
   local tag="$2"
-  local result="<${tag}>"
+  local result="<${tag} class=\"sb-padding-20px\">"
   IFS=';' read -ra items <<< "$input"
   for item in "${items[@]}"; do
     item="$(echo "$item" | xargs)"  # trim

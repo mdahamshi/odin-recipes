@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{tite}}</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>{{title}}</title>
 </head>
-<h1>{{head1}}</h1>
-<img src="./img/{{image}}" alt="recipe image">
-<h2>Description:</h2>
-<p>{{description}}</p>
-<h2>Integrations</h2>
-{{integration}}
-<h2>Steps</h2>
-{{steps}}
-<a href="../index.html">Home</a>
 
 <body>
-    
+    <div class="top-main">
+        <h1 class="top-h-center sb-col-card-padding">{{head1}}</h1>
+        <div class="top-div-center">
+            <img class="sb-col-card sb-max-width-600px" src="./img/{{image}}" alt="recipe image">
+        </div>
+        <h2 class="top-h-center sb-col-card-padding">Description</h2>
+        <p class="sb-padding-20px">{{description}}</p>
+        <h2 class="sb-col-card-padding top-h-center">Integrations</h2>
+        {{integration}}
+        <h2 class="sb-col-card-padding top-h-center">Steps</h2>
+        {{steps}}
+        <div class="top-div-center"><a class="top-button" href="../index.html">Home</a></div>
+    </div>
 </body>
 </html>
