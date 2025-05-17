@@ -1,3 +1,7 @@
+:root{
+    --sb-theme-color-main: #008cff;
+    --sb-button-color: var(--sb-theme-color-main)
+}
 * {
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -49,8 +53,8 @@ img {
     padding: 70px 12px 70px 12px;
     margin-bottom: 8px;
  }
-.top-button a,.top-button{
-    background-color: #008cff;
+.top-button{
+    background-color: var(--sb-button-color);
     color: white;
     /* display: inline-block; */
     display: inline-block;
